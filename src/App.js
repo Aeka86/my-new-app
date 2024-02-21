@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import MyComponent from "./MyComponent";
+// import Toggle from './Toggle';
+import Counter from "./Counter";
 
-function App() {
+
+const App = () => {
+
   return (
-    <div className="App">
-    
+    <div>
+      
+      <Counter />
     </div>
   );
-}
+};
 
 export default App;
+
